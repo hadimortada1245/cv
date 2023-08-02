@@ -1,0 +1,54 @@
+
+.my_image{
+    width  : 120px;
+     height : 112px;
+     border: 2px solid rgb(88, 88, 186);
+     border-radius: 100%;
+     float: right;
+}
+
+.name{
+ margin-right: 15px;
+ color: aliceblue;   
+}
+
+ header ul li{
+    display: inline;
+    margin-right: 48px;
+    color: aliceblue;
+    font-size: large;
+}
+.ul_nav{
+    margin-left: auto;
+    background-color: rgb(28, 10, 58);
+}
+header{
+    height: 115px;
+    background-color: rgb(79, 75, 147);
+    color: aliceblue;
+}
+.big_div{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+h1{
+    color: aqua;
+}
+input{
+    background-color: rgba(85, 74, 74, 0.221);
+    cursor: text;
+    width: 55px;
+    height: 30px;
+    border-radius: 45%;
+}
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+@media (max:760px){
+    .big_div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
